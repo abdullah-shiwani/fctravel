@@ -12,8 +12,6 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 var customers = require('./routes/customers');
 
-
-
 var client = redis.createClient();//CREATE REDIS CLIENT
 var app = express();
  
